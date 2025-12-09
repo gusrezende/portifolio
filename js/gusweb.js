@@ -1,4 +1,4 @@
-const DESTINATION_URL = "/HTML/easterEgg.html";
+const DESTINATION_URL = "easterEgg.html";
 
 const ANIMATION_DURATION = 600; 
 
