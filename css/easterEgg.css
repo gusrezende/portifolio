@@ -1,0 +1,67 @@
+/*
+    Estilos para a página de Easter Egg (preto e branco)
+*/
+
+body {
+    /* Fundo preto e texto branco */
+    background-color: #000000;
+    color: #ffffff;
+    font-family: serif; /* Usando uma fonte serifada para imitar o estilo */
+    margin: 0;
+    padding: 0;
+    /* Configuração Flexbox para centralizar todo o conteúdo na tela */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Ocupa toda a altura da tela */
+    text-align: center;
+}
+
+.content-container {
+    /* Define a largura máxima do texto */
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* Estilo do Kanji */
+.kanji-symbol {
+    font-size: 8em; /* Kanji bem grande */
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+/* Leitura "Sorte" */
+.kanji-reading {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 50px; /* Espaço antes do texto explicativo */
+}
+
+/* Texto de Motivação (em itálico) */
+.kanji-motive {
+    /* Fonte maior e em itálico, como na imagem */
+    font-size: 2em; 
+    font-style: italic;
+    line-height: 1.4;
+    margin-bottom: 100px; /* Espaço antes do link "back" */
+    
+    /* Usa a fonte 'serif' padrão. Para fontes exatas, você precisaria importar uma. */
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+/* Link "back" */
+.back-link-egg {
+    font-size: 1.5em;
+    color: #ffffff; /* Link branco */
+    text-decoration: none; /* Sem sublinhado */
+    display: block;
+    padding: 10px 0;
+    
+    /* Usando a mesma fonte do texto para manter a consistência */
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.back-link-egg:hover {
+    text-decoration: underline;
+}

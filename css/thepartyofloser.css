@@ -1,0 +1,65 @@
+/* 1. Estilos Globais e Reset */
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    /* Fonte serifada para o corpo, como no texto de descrição */
+    font-family: 'Times New Roman', Times, serif; 
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* 2. Container e Alinhamento */
+.container {
+    width: 100%;
+    max-width: 600px; /* Limita a largura máxima do conteúdo, como na imagem */
+    margin: 0 auto; /* Centraliza o container se ele for menor que 100% da largura */
+    padding: 20px;
+}
+
+.content-wrapper {
+    text-align: center; /* Centraliza o link 'back' e o título principal */
+}
+
+/* 3. Estilo do Cabeçalho/Imagem */
+.image-header {
+    width: 100%;
+    /* Garante que o container da imagem tenha o aspecto do original */
+    /* Se a imagem original não tiver a proporção correta, use object-fit na tag <img> */
+    overflow: hidden; 
+}
+
+.image-header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 4. Estilo do Título Principal */
+.title {
+    /* Fonte e estilo para o título principal (The Party of Losers) */
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 2.5em; /* Tamanho maior */
+    font-weight: normal; /* Para que não fique negrito, como na imagem */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* 5. Estilo do Parágrafo */
+.description {
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: justify; /* Ajusta o texto para justificado */
+    margin-bottom: 50px; /* Espaço antes do link 'back' */
+}
+
+/* 6. Estilo do Link 'back' */
+.back-link {
+    display: block; /* Garante que o link ocupe toda a largura para centralizar */
+    text-decoration: none;
+    color: #000000;
+    font-size: 1em;
+    text-align: center; /* Centraliza o texto 'back' */
+    margin-top: 20px;
+}

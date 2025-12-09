@@ -1,0 +1,117 @@
+:root {
+    --purple-bg: #5700a8;
+    --flower-width: 300px; 
+    --spacing: 50px;       
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: flex-start;
+}
+
+.container {
+    width: 100%;
+    max-width: none; 
+    padding: 50px var(--spacing) 50px 0; 
+    box-sizing: border-box;
+}
+
+
+
+.portfolio-main-layout {
+    position: relative; 
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 400;
+    margin-left: calc(var(--flower-width) + var(--spacing)); 
+    margin-top: 0; 
+    margin-bottom: 30px;
+    padding-left: 0;
+font-family: "Times New Roman", serif;  background-color: #ffffff;
+}
+
+.item-left {
+
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+
+    width: var(--flower-width); 
+    height: 100vh; 
+    background-color: var(--purple-bg);
+    overflow: hidden;
+    
+
+}
+
+.item-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+.portfolio-content {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+
+    margin-left: calc(var(--flower-width) + var(--spacing)); 
+}
+
+.item-right {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 0; 
+
+.project-card {
+    margin-bottom: 20px; 
+font-family: "Times New Roman", serif;    
+text-decoration: none;
+color: #000000;
+   
+  }
+
+.project-card img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
+    
+    
+}
+
+.project-title {
+    font-size: 1em;
+    font-weight: normal;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+.back-link {
+    font-size: 1em;
+    color: #000000; 
+    text-decoration: none; 
+    display: block;
+    width: fit-content;
+
+    margin-top: 150px; 
+}
+
+.back-link:hover {
+    text-decoration: none;
+}
+}
